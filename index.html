@@ -5,51 +5,17 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Nadia's Home Page</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <style>
-            body{text-align:center;
-                background-color:lightpink
-            }
-            h1{
-                background-color:lightblue;
-                border:2px solid black;
-                margin: 0 auto;
-            }
-            nav{
-                
-                margin: 20px;
-            }
-            main{
-                background-color:antiquewhite;
-                border: 2px solid black;
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            section{
-                margin-bottom:20px;
-            }
-            h2{
-                margin-bottom:0px;
-            }
-            p{
-                margin-top:0px;
-            }
-            ul{
-                list-style-type:none;
-                margin-top:5px;
-                padding:0px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <header>
-            <h1>Nadia's World</h1>
+            <h1 class="header">Nadia's World</h1>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
         </header>
-        
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact Me</a>
-        </nav>
 
         <main>
             <section>
@@ -64,23 +30,34 @@
                 </p>
             </section>
 
-            <section>
-                <h2>Profile</h2>
-                <p>
-                    Age: 27<br>
-                    Birthdate: July 19, 1999<br>
-                    Hometown: Labuan, Malaysia
-                </p>
-            </section>
+            <section class="content">
+                <section class="item1">
+                    <h2>Profile</h2>
+                    <p>
+                        Age: 27<br>
+                        Birthdate: July 19, 1999<br>
+                            Hometown: Labuan, Malaysia
+                    </p>
+                </section>
 
-            <section>
-                <h2>My Hobbies</h2>
-                <ul>
-                    <li>Journaling</li>
-                    <li>Traveling</li>
-                    <li>Photography</li>
-                    <li>Arts and Crafts</li>
-                </ul>
+                <section class="item1">
+                    <h2>My Hobbies</h2>
+                    <ul>
+                        <li>Journaling</li>
+                        <li>Traveling</li>
+                        <li>Photography</li>
+                        <li>Arts and Crafts</li>
+                    </ul>
+                </section>
+
+                <section class="item1">
+                    <h2>My Top Three</h2>
+                    <ul>
+                        <li>Artist: Lana Del Rey, Oasis, Guns n Roses</li>
+                        <li>Movie: Thirteen, Titanic, How to Lose a Guy in 10 Days</li>
+                        <li>TV Show: Modern Family, FRIENDS, Bridgerton</li>
+                    </ul>
+                </section>
             </section>
         </main>
 

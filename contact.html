@@ -5,40 +5,19 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Contact Me</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <style>
-            body{text-align:center;
-                background-color:lightpink;
-            }
-            h1{
-                background-color:lightblue;
-                border:2px solid black;
-                margin: 0 auto;
-            }
-            nav{
-                margin:20px;
-                
-            }
-            main{
-                background-color:antiquewhite;
-                border: 2px solid black;
-                margin: 0 auto;
-                padding-bottom: 20px;
-            }
-            div {
-                margin-bottom:10px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <header>
-            <h1>Nadia's World</h1>
+            <h1 class="header">Nadia's World</h1>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
         </header>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact Me</a>
-        </nav>
+
 
         <main>
             <h2>Let's Get in Touch!</h2>
@@ -46,27 +25,27 @@
             <p>Please leave your contact information and message below.</p>
             
             <form action="#" method="post">
-                <div>
+                <div class="item2">
                     <label for="fname">First Name:</label><br>
                     <input type="text" id="fname" name="fname" placeholder="Jane" required>
                 </div>
 
-                <div>
+                <div class="item2">
                     <label for="lname">Last Name:</label><br>
                     <input type="text" id="lname" name="lname" placeholder="Doe" required>
                 </div>
 
-                <div>
+                <div class="item2">
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="example@email.com" required>
                 </div>
 
-                <div>
+                <div class="item2">
                     <label for="phone">Phone Number:</label><br>
                     <input type="tel" id="phone" name="phone" placeholder="0123456789" required>
                 </div>
 
-                <div>
+                <div class="item2">
                     <label for="message">Your Message:</label><br>
                     <textarea id="message" name="message" rows="4" cols="50" required></textarea>
                 </div>

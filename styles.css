@@ -1,0 +1,59 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  text-align:center;
+  background-color:lightpink;
+  margin:0;
+}
+
+/*Header Layout*/
+.header{
+  background-color:lightblue;
+  border:2px solid black;
+  margin:0 auto;
+}
+
+.nav{
+  margin:20px;
+}
+
+/*Main Page Layout*/
+main{
+  background-color:antiquewhite;
+  border:2px solid black;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+h2{
+  margin-bottom:0px;
+}
+
+p{
+  margin-top:0px;
+}
+
+ul{
+  list-style-type:none;
+  margin-top:5px;
+  padding:0px;
+}
+
+.content{
+  display:flex;
+  flex-direction:row;
+}
+
+.item1{
+  border:2px solid white;
+  padding:10px;
+  width:100%;
+}
+
+.item2{
+  margin-bottom:10px;
+}
+
+
